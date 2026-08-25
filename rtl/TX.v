@@ -1,22 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 30.04.2026 14:28:28
-// Design Name: 
+// Engineer: Mohammad Yasir 
+// Create Date: 04.05.2026
+// Design Name: UART Controller
 // Module Name: TX
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Project Name: UART TX+RX
+// Description: UART Transmitter state machine. Converts 8-bit parallel input 
+//              data (data_in) into serial output frames (tx) with start, 
+//              data, and stop bits driven by the tx_en clock enable.
 //////////////////////////////////////////////////////////////////////////////////
 
 
