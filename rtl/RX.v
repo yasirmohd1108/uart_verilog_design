@@ -1,24 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 30.04.2026 21:35:21
-// Design Name: 
+// Engineer: Mohammad Yasir 
+// Create Date: 04.05.2026
+// Design Name: UART Controller
 // Module Name: RX
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Project Name: UART TX+RX
+// Description: UART Receiver module utilizing a 16x oversampling scheme.
+//              Detects start bits, samples incoming serial data (rx) at 
+//              the mid-bit point (sample 7), and latches 8-bit output data.
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module RX(
     input clk,reset,ready_clr,clk_en,rx,
