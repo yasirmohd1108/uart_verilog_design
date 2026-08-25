@@ -1,24 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 04.05.2026 14:31:44
-// Design Name: 
+// Engineer: Mohammad Yasir 
+// Create Date: 04.05.2026
+// Design Name: UART Controller
 // Module Name: BAUD_RATE_GENERATOR
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Project Name: UART TX+RX
+// Description: Configurable baud rate generator providing 1x TX enable 
+//              and 16x oversampling RX enable pulses.
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module BAUD_RATE_GENERATOR #(
     parameter CLK_FREQ = 100_000_000, // Default 100 MHz clock
