@@ -1,22 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 04.05.2026 14:27:02
-// Design Name: 
+// Engineer: Mohammad Yasir 
+// Create Date: 04.05.2026
+// Design Name: UART Controller
 // Module Name: TOP
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Project Name: UART TX+RX
+// Description: Top-level UART integration module. Connects the Baud Rate 
+//              Generator, Transmitter (TX), and Receiver (RX) into a single 
+//              full-duplex communication controller with status handshaking.
 //////////////////////////////////////////////////////////////////////////////////
 
 
