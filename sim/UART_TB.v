@@ -1,23 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 17.07.2026 22:08:00
+// Engineer: Mohammad Yasir
+// Create Date: 17.07.2026
 // Design Name: UART Testbench
 // Module Name: UART_TB
-// Project Name: UART TX+RX
-// Target Devices: 
-// Tool Versions: 
+// Project Name: UART TX+RX 
 // Description: Testbench for the complete UART module (TX + RX + BAUD RATE GENERATOR)
 //              configured in a loopback setup.
-// 
 // Dependencies: TOP.v, TX.v, RX.v, BAUD_RATE_GENERATOR.v
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
 //////////////////////////////////////////////////////////////////////////////////
 
 module UART_TB;
